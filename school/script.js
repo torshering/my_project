@@ -9,6 +9,7 @@ enter.addEventListener('click',function(){
     form.classList.toggle('hover');
     setTimeout(
         function(){
+            enter.classList.toggle('hidden')
            for(let elem of inputs){
             elem.classList.toggle('lognone');
         }

@@ -40,8 +40,10 @@
   background-color: rgb(169, 136, 201);
   width: 15%;
   text-align: center;
-  
 
+}
+.hidden{
+  display:none;
 }
 form{
     transition-property: width;
